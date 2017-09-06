@@ -1,0 +1,63 @@
+<html >
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta name="description" content="Solving cryptarithms, alphametics, or numeric cryptograms">
+<title>Cryptarithmetic Solver</title>
+<style>
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h2 align="center">Cryptarithmetic Solver</h4>
+<form class="form" align="center">
+<table class="table table-striped">
+<tr>
+<td>
+</td>
+<td>
+<input tabindex="2" type="text" id="word1" >
+</td>
+</tr>
+<tr>
+<td>
+<select tabindex="1" id="operation" style="font-size:18pt;">
+<option value="0">+</option>
+<option value="0">+</option>
+</select>
+</td>
+<td>
+<input tabindex="3" type="text" id="word2" >
+</td>
+</tr>
+<tr>
+<td> <h4>=</h4> </td>
+<td>
+<input tabindex="4" type="text" id="word3" >
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<button type="button"class="btn btn-primary"onclick="calc0()">Calculate</button>
+</td>
+</tr>
+<tr></tr>
+<td></td>
+<td>
+<button type="Reset" class="btn btn-danger">Reset</button>
+</td>
+</tr>
+</table>
+<pre  align="center" id="answers"></pre>
+</form>
+</div>
+<script src="./crypt.js"> </script>
+</body></html>

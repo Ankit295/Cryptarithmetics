@@ -1,0 +1,17 @@
+{
+  "name": "Crypt_Solver",
+  "version": "1.0.0",
+  "description": "Crypt Arithmetic Solver",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ankit_pandey",
+  "license": "ISC"
+}
